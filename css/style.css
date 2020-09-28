@@ -52,8 +52,9 @@ links in the navigation are in the hover or focus state.*/
   z-index: 1;
 
   /*Your code here*/
+  display: none;
   position: absolute;
-  bottom: 40px;
+  top: 40px;
 }
 
 .skip{
@@ -66,7 +67,7 @@ links in the navigation are in the hover or focus state.*/
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 .skip a:focus{
-  bottom: 0;
+  top: 0;
 }
 
 :focus{
